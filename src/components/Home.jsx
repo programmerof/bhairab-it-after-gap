@@ -4,7 +4,7 @@ import Ourservices from './Ourservices'
 const Home = () => {
   return (
     <div>
-      home
+      home ok
       </div>
   )
 }
