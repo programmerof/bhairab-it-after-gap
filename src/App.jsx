@@ -9,6 +9,7 @@ import Ourservices from './components/Ourservices';
 import Header from './components/Header';
 import Notesdiv from './components/NotesDiv'
 import Team from './components/Team'
+import PopupForm from './components/PopupForm'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -89,6 +90,8 @@ function App() {
               <Route path="/Notesdiv" element={<Notesdiv/>} />
               <Route path="/contact" element={<Contact/>} />
               <Route path="/footer" element={<Footer/>} />
+              <Route path="/Team" element={<Team/>} />
+
 
             </Routes>
           </BrowserRouter>
@@ -98,6 +101,7 @@ function App() {
           <Portfolio />
           <Timeline />
           <Ourservices />
+          <PopupForm />
           <Team />
           <Map />
           <Contact />
