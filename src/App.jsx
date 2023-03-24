@@ -10,6 +10,7 @@ import Header from './components/Header';
 import Notesdiv from './components/NotesDiv'
 import Team from './components/Team'
 import PopupForm from './components/PopupForm'
+import Aboutus from './components/Aboutus'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -83,20 +84,20 @@ function App() {
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
         <div className="max-w-5xl w-11/12 mx-auto">
           <BrowserRouter>
+          <Header/>
             <Routes>
               <Route exact path="/" component={Intro} />
-              <Route path='/Portfolio' element={<Ourservices />} />
-              <Route path="/Timeline" element={<Timeline/>} />
+              <Route path='/Portfolio' element={<Portfolio />} />
+              <Route path="/socialmediaservice" element={<Timeline/>} />
               <Route path="/Notesdiv" element={<Notesdiv/>} />
               <Route path="/contact" element={<Contact/>} />
               <Route path="/footer" element={<Footer/>} />
               <Route path="/Team" element={<Team/>} />
-
-
+              <Route path="/aboutus" element={<Aboutus/>} />
+              <Route path="/Services" element={<Ourservices/>} />
+              <Route path="/portfolio" element={<Portfolio/>} />
             </Routes>
           </BrowserRouter>
-
-          <Header />
           <Intro />
           <Portfolio />
           <Timeline />
@@ -104,6 +105,7 @@ function App() {
           <PopupForm />
           <Team />
           <Map />
+          <Aboutus />
           <Contact />
           <Notesdiv />
           <Footer />

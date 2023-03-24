@@ -10,7 +10,7 @@ const Aboutus = () => {
         <div className="md:flex-shrink-0">
           <img
             className="h-24 w-full object-contain md:h-full md:w-48"
-            src="best-about-us-pages.jpg"
+            src="https://previews.123rf.com/images/alexwhite/alexwhite1804/alexwhite180400315/99787816-about-us-flat-design-orange-round-vector-icon-in-eps-10.jpg"
             alt="Image description"
           />
         </div>

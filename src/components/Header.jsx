@@ -1,6 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -9,38 +8,35 @@ const Header = () => {
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div>
             <a
-              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-xl font-bold shadow-md"
-              href="#"
+              className="bg-red-400 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-xl font-bold shadow-md"
+              href='/intro'
             >
               Bhairab IT Solution
             </a>
           </div>
           <div className="flex items-center">
             <div className="hidden md:block">
-              <a
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md mx-2"
-                href="#"
-              >
-                Home
-              </a>
-              <a
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md mx-2"
-                href="services.html"
-              >
-                Services
-              </a>
-              <a
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md mx-2"
-                href="aboutus.html"
-              >
-                About Us
-              </a>
-              <a
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md mx-2"
-                href="profile.html"
-              >
-                Contact Us
-              </a>
+              <div className="flex gap-4">
+                <a href='intro' className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex">Home</a>
+                <a className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" href="/services">Services</a>
+                <a className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" href="/aboutus">About us</a>
+                
+
+                <Link
+                  to="/team"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Contact us
+                </Link>
+
+
+
+                <a className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" href="/portfolio">Work Portfolio</a>
+                <a className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" href="/socialmediaservice">Social Media Service</a>
+
+
+
+              </div>
             </div>
             <div className="md:hidden">
               <button
