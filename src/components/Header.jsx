@@ -9,8 +9,8 @@ const Header = () => {
   };
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6">
-      <div class="flex items-center flex-shrink-0 text-white mr-6">
+    <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6 ">
+      <div class="flex items-center flex-shrink-0 text-white mr-48">
     <a href="/">
       <img src="public\assets\bhairabictlogo.png" alt="Bhairab IT Solutions logo" width="100" height="50"
         class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" />

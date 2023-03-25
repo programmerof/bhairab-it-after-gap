@@ -11,6 +11,7 @@ import Notesdiv from './components/NotesDiv'
 import Team from './components/Team'
 import PopupForm from './components/PopupForm'
 import Aboutus from './components/Aboutus'
+import Home from './components/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
