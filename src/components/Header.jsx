@@ -17,9 +17,25 @@ const Header = () => {
           <div className="flex items-center">
             <div className="hidden md:block">
               <div className="flex gap-4">
-                <a href='intro' className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex">Home</a>
-                <a className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" href="/services">Services</a>
-                <a className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" href="/aboutus">About us</a>
+                
+
+                <Link
+                  to="/intro"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Home
+                </Link>
+
+                <Link
+                  to="/services"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Services
+                </Link>
+
+                <Link
+                to="/aboutus"
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >About us</Link>
                 
 
                 <Link
@@ -29,11 +45,14 @@ const Header = () => {
                   Contact us
                 </Link>
 
+                <Link
+                to='/portfolio'
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Work Portfolio</Link>
 
-
-                <a className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" href="/portfolio">Work Portfolio</a>
-                <a className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" href="/socialmediaservice">Social Media Service</a>
-
+                <Link
+                to='/socialmediaservice'
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Social Media Service
+                </Link>
 
 
               </div>
@@ -82,18 +101,48 @@ const Header = () => {
         </div>
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a
+            {/* <a
               className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
               href="#"
             >
               Home
-            </a>
-            <a
-              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium"
-              href="services.html"
-            >
-              Services
-            </a>
+            </a> */}
+
+            <Link
+                  to="/intro"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Home
+                </Link>
+
+                <Link
+                  to="/services"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Services
+                </Link>
+
+                <Link
+                to="/aboutus"
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >About us</Link>
+                
+
+                <Link
+                  to="/team"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Contact us
+                </Link>
+
+                <Link
+                to='/portfolio'
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Work Portfolio</Link>
+
+                <Link
+                to='/socialmediaservice'
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Social Media Service
+                </Link>
+            
           </div>
         </div>
       </nav>

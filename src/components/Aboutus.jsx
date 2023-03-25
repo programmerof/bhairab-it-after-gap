@@ -20,11 +20,11 @@ const Aboutus = () => {
           </div>
           <p className="mt-2 text-gray-500 text-center">
             Our mission is to help businesses succeed by providing the most
-            impactful and creative marketing services.{" "}
+            impactful and creative marketing services.
           </p>
           <h1 className="mb-0 mt-2 text-indigo-500 font-semibold text-center">
-            {" "}
-            Why Work With Us{" "}
+            
+            Why Work With Us
           </h1>
           <ul className="mt-4 text-gray-500 list-disc list-inside text-center">
             <li>
