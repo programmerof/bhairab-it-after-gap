@@ -10,11 +10,13 @@ const Header = () => {
 
   return (
     <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6">
-      <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-xl tracking-tight ml-2 hidden sm:block">
-          Bhairab IT Solutions
-        </span>
-      </div>
+      <div class="flex items-center flex-shrink-0 text-white mr-6">
+    <a href="/">
+      <img src="public\assets\bhairabictlogo.png" alt="Bhairab IT Solutions logo" width="100" height="50"
+        class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" />
+    </a>
+  </div>
+
       <div className="block sm:hidden">
         <button
           onClick={toggleMenu}
@@ -51,77 +53,102 @@ const Header = () => {
         <div className="flex text-sm sm:flex-grow">
 
           <div className="sm:hidden">
-          <Link
-                  to="/intro"
-                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
-                >
-                  Home
-                </Link>
+            <Link
+              to="/intro"
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+            >
+              Home
+            </Link>
 
-                <Link
-                  to="/services"
-                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
-                >
-                  Services
-                </Link>
+            <Link
+              to="/services"
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+            >
+              Services
+            </Link>
 
-                <Link
-                to="/aboutus"
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >About us</Link>
-                
+            <Link
+              to="/aboutus"
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >About us</Link>
 
-                <Link
-                  to="/team"
-                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
-                >
-                  Contact us
-                </Link>
 
-                <Link
-                to='/portfolio'
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Work Portfolio</Link>
+            <Link
+              to="/team"
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+            >
+              Contact us
+            </Link>
 
-                <Link
-                to='/socialmediaservice'
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Social Media Service
-                </Link>
+            <Link
+              to='/portfolio'
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Work Portfolio</Link>
+
+            <Link
+              to='/socialmediaservice'
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Social Media Service
+            </Link>
           </div>
 
+          {/* LAPTOP SCREEN  */}
           <div className="hidden sm:flex sm:flex-row">
-          <Link
-                  to="/intro"
-                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
-                >
-                  Home
-                </Link>
+            <Link
+              to="/intro"
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+            >
+              Home
+            </Link>
 
-                <Link
-                  to="/services"
-                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
-                >
-                  Services
-                </Link>
+            <Link
+              to="/services"
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+            >
+              Services
+            </Link>
 
-                <Link
-                to="/aboutus"
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >About us</Link>
-                
+            <Link
+              to="/aboutus"
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >About us</Link> 
 
-                <Link
-                  to="/team"
-                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
-                >
-                  Contact us
-                </Link>
 
-                <Link
-                to='/portfolio'
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Work Portfolio</Link>
+            <Link
+              to="/team"
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+            >
+              Contact us
+            </Link>
 
-                <Link
-                to='/socialmediaservice'
-                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Social Media Service
-                </Link>
+            <Link
+              to='/portfolio'
+              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Work Portfolio</Link>
+            <Link
+  to='/socialmediaservice'
+  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
+>
+  Social Media Service 
+  <br />
+  <div class="flex flex-row justify-center items-center gap-2">
+    <div>
+      <img src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721672-instagram_108066.png" alt="Instagram" class="w-6 h-6 my-2" />
+    </div>
+    <div>
+      <img src="https://cdn.icon-icons.com/icons2/122/PNG/512/twitter_socialnetwork_20007.png" alt="Twitter" class="w-6 h-6 my-2" />
+    </div>
+    <div>
+      <img src="https://cdn.icon-icons.com/icons2/805/PNG/512/linkedin_icon-icons.com_65929.png" alt="LinkedIn" class="w-6 h-6 my-2" />
+    </div>
+    <div>
+      <img src="https://cdn.icon-icons.com/icons2/2972/PNG/512/tiktok_logo_icon_186896.png" alt="TikTok" class="w-6 h-6 my-2" />
+    </div>
+    <div>
+      <img src="https://cdn.icon-icons.com/icons2/3658/PNG/512/meta_fb_communication_social_media_katana_facebook_icon_228415.png" alt="Facebook" class="w-6 h-6 my-2" />
+    </div>
+  </div>
+</Link>
+
+
+
+
+
           </div>
 
         </div>

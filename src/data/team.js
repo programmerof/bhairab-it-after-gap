@@ -7,7 +7,7 @@ export default [
     },
     {
         name: 'Rupesh Oli',
-        imgUrl: '/people/rupesh_oli.jpeg',
+        imgUrl: 'public/people/rupesh.jpg',
         introduction: '',
         role: ''
     },
@@ -18,8 +18,8 @@ export default [
         role: ''
     },
     {
-        name: 'Nikita',
-        imgUrl: '/people/nikita.jpeg',
+        name: 'Nitika Kharel',
+        imgUrl: '/people/nitika.jpeg',
         introduction: '',
         role: ''
     },
@@ -31,13 +31,13 @@ export default [
     },
     {
         name: 'Nishant Dahal',
-        imgUrl: '/people/nishant_dahal.jpeg',
+        imgUrl: '/people/nishant_dahal.jpg',
         introduction: '',
         role: ''
     },
     {
         name: 'Bishal Khadka',
-        imgUrl: '/people/bishal_khadka.jpeg',
+        imgUrl: '/people/bishal_khadka.jpg',
         introduction: '',
         role: ''
     },
@@ -55,7 +55,7 @@ export default [
     },
     {
         name: 'Sakar Khatiwada',
-        imgUrl: '/people/sakar.png',
+        imgUrl: '/people/sakar.jpg',
         introduction: '',
         role: ''
     },
