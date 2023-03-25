@@ -50,43 +50,79 @@ const Header = () => {
       >
         <div className="flex text-sm sm:flex-grow">
 
-
+          <div className="sm:hidden">
           <Link
-            to="/intro"
-            className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
-          >
-            Home
-          </Link>
+                  to="/intro"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Home
+                </Link>
 
+                <Link
+                  to="/services"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Services
+                </Link>
+
+                <Link
+                to="/aboutus"
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >About us</Link>
+                
+
+                <Link
+                  to="/team"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Contact us
+                </Link>
+
+                <Link
+                to='/portfolio'
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Work Portfolio</Link>
+
+                <Link
+                to='/socialmediaservice'
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Social Media Service
+                </Link>
+          </div>
+
+          <div className="hidden sm:flex sm:flex-row">
           <Link
-            to="/services"
-            className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
-          >
-            Services
-          </Link>
+                  to="/intro"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Home
+                </Link>
 
-          <Link
-            to="/aboutus"
-            className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >About us</Link>
+                <Link
+                  to="/services"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Services
+                </Link>
 
+                <Link
+                to="/aboutus"
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >About us</Link>
+                
 
-          <Link
-            to="/team"
-            className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
-          >
-            Contact us
-          </Link>
+                <Link
+                  to="/team"
+                  className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex"
+                >
+                  Contact us
+                </Link>
 
-          <Link
-            to='/portfolio'
-            className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Work Portfolio</Link>
+                <Link
+                to='/portfolio'
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Work Portfolio</Link>
 
-          <Link
-            to='/socialmediaservice'
-            className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Social Media Service
-          </Link>
-
-
+                <Link
+                to='/socialmediaservice'
+                className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex" >Social Media Service
+                </Link>
+          </div>
 
         </div>
       </div>
