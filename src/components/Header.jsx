@@ -52,7 +52,7 @@ const Header = () => {
       >
         <div className="flex text-sm sm:flex-grow">
 
-          <div className="sm:hidden">
+          <div className="sm:hidden ">
           <Link
               to="/intro"
               className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
@@ -243,14 +243,7 @@ const Header = () => {
                 </div>
               </div>
             </Link>
-
-
-
-
-
-
           </div>
-
         </div>
       </div>
     </nav>
