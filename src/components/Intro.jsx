@@ -2,10 +2,11 @@ import React from 'react';
 
 function Intro() {
    return (
-      <section className="bg-gray-200 py-20 font-medium ">
-  <div className="container mx-auto px-24  ">
-    <div className="text-center mb-10 font-semibold ">
-      <h1 className="text-4xl font-bold mb-2 text-red-500">Why Choose Us?</h1>A
+      <section className="bg-gray-200 py-10 md:py-20 font-medium ">
+        <div className="container mx-auto px-4 md:px-24">
+          <div className="text-center mb-6 md:mb-10 font-semibold ">
+            <h1 className="text-2xl md:text-4xl font-bold mb-2 text-red-500">Why Choose Us?</h1>
+            <p className="text-sm md:text-base">A
       group of digital industry professionals, and thoughtful leaders who are
       committed to producing outcomes. Driven by innovation and human behaviour,
       our Bhairab ICT Solution is changing the way brands connect with audiences
@@ -19,16 +20,15 @@ function Intro() {
       everything in our online marketing business successfully. We’ve been on
       this ride before and can help you ride out the ups and down. We’ll show
       you how to use social media effectively and give you tips on how to market
-      yourself as an expert in your industry~all while making sure that every
+      yourself as an expert in your industry all while making sure that every
       penny spent on advertising goes towards growing your business instead of
       eating into profits. We believe in building brands that are more than just
       a logo and a website. We believe in making your business an actual human
       being. When we work with us, we’re dedicated to helping you grow your
-      business through digital marketing services.
-    </div>
-  </div>
-</section>
-
+      business through digital marketing services.</p>
+          </div>
+        </div>
+      </section>
    )
 }
 
