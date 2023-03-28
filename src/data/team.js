@@ -75,10 +75,5 @@ export default [
         introduction: '',
         role: ''
     },
-    {
-        name: 'Aashik Shilpakar',
-        imgUrl: 'https://images2.alphacoders.com/128/1282455.jpg',
-        introduction: '',
-        role: ''
-    },
+    
 ]

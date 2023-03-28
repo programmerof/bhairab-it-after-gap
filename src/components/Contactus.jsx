@@ -41,12 +41,14 @@ const Contactus = () => {
           <li>Influencer marketing</li>
         </ul>
         <div className="mt-6 flex justify-center">
-          <a
-            href="#"
+
+          <Link
+            to="/Social_media_form"
             className="inline-block px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-indigo-600 border border-transparent rounded-lg shadow-md hover:shadow-lg active:bg-indigo-800 hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo text-center"
           >
             Get Started
-          </a>
+          </Link>
+
         </div>
       </div>
     </div>
@@ -105,7 +107,7 @@ const Contactus = () => {
         </p>
         <div className="mt-6 flex justify-center">
           <a
-            href="#"
+            href="/Social_media_form"
             className="inline-block px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-indigo-600 border border-transparent rounded-lg shadow-md hover:shadow-lg active:bg-indigo-800 hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo text-center"
           >
             Get Started
@@ -177,7 +179,7 @@ const Contactus = () => {
         </p>
         <div className="mt-6 flex justify-center">
           <a
-            href="#"
+            href="/Social_media_form"
             className="inline-block px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-indigo-600 border border-transparent rounded-lg shadow-md hover:shadow-lg active:bg-indigo-800 hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo text-center"
           >
             Get Started
@@ -239,7 +241,7 @@ const Contactus = () => {
         </ul>
         <div className="mt-6 flex justify-center">
           <a
-            href="#"
+            href="/Social_media_form"
             className="inline-block px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-indigo-600 border border-transparent rounded-lg shadow-md hover:shadow-lg active:bg-indigo-800 hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo text-center"
           >
             Get Started
@@ -271,7 +273,7 @@ const Contactus = () => {
         </p>
         <div className="mt-6 flex justify-center">
           <a
-            href="#"
+            href="/Social_media_form"
             className="inline-block px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-indigo-600 border border-transparent rounded-lg shadow-md hover:shadow-lg active:bg-indigo-800 hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo text-center"
           >
             Get Started

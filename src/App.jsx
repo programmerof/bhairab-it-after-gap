@@ -12,9 +12,11 @@ import Team from './components/Team'
 import PopupForm from './components/PopupForm'
 import Aboutus from './components/Aboutus'
 import Home from './components/Home';
+import Social_media_form from './components/Social_media_form';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-
+import Ig_marketing from './components/socialmedia_marketing_components/Ig_marketing';
+import Fb_marketing from './components/socialmedia_marketing_components/fb_marketing';
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -97,10 +99,15 @@ function App() {
               <Route path="/aboutus" element={<Aboutus/>} />
               <Route path="/Services" element={<Ourservices/>} />
               <Route path="/portfolio" element={<Portfolio/>} />
+              <Route path="/Form" element={<Social_media_form/>} />
             </Routes>
           </BrowserRouter>
-          <Intro />
+          <Intro />        
           <Portfolio />
+
+         
+
+
           <Timeline />
           <Ourservices />
           <PopupForm />
