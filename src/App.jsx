@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
 import Map from './components/map';
@@ -14,6 +13,8 @@ import Aboutus from './components/Aboutus'
 import Home from './components/Home';
 import Social_media_form from './components/Social_media_form';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import serviceour from './components/serviceour';
 
 import Ig_marketing from './components/socialmedia_marketing_components/Ig_marketing';
 import Fb_marketing from './components/socialmedia_marketing_components/fb_marketing';
@@ -89,7 +90,9 @@ function App() {
           <BrowserRouter>
           <Header/>
             <Routes>
-              <Route exact path="/" component={Intro} />
+              <Route exact path="/" component={Home} />
+
+
               <Route path='/Portfolio' element={<Portfolio />} />
               <Route path="/socialmediaservice" element={<Timeline/>} />
               <Route path="/Notesdiv" element={<Notesdiv/>} />
@@ -102,8 +105,9 @@ function App() {
               <Route path="/Form" element={<Social_media_form/>} />
             </Routes>
           </BrowserRouter>
-          <Intro />        
+          <Home/>
           <Portfolio />
+
 
          
 

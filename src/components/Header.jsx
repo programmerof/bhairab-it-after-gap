@@ -8,7 +8,7 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  return (
+  return ( 
     <nav className="flex items-center justify-between flex-wrap bg-gray-800 p-6 ">
       <div class="flex items-center flex-shrink-0 text-white mr-48">
         <a href="/">
@@ -67,7 +67,7 @@ const Header = () => {
             </Link>
 
             <Link
-              to="/services"
+              to="/service"
               className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               Services
