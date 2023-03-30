@@ -67,7 +67,7 @@ const Header = () => {
             </Link>
 
             <Link
-              to="/service"
+              to="/Ourservicesmain"
               className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               Services
@@ -166,7 +166,7 @@ const Header = () => {
             </Link>
 
             <Link
-              to="/services"
+              to="/Ourservicesmain"
               className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               Services

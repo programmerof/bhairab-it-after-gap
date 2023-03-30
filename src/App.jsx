@@ -4,7 +4,6 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
 import Map from './components/map';
-import Ourservices from './components/Ourservices';
 import Header from './components/Header';
 import Notesdiv from './components/NotesDiv'
 import Team from './components/Team'
@@ -13,8 +12,10 @@ import Aboutus from './components/Aboutus'
 import Home from './components/Home';
 import Social_media_form from './components/Social_media_form';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Ourfeature from './components/Ourfeature';
 
 import Stats from './components/Stats';
+import Ourservicesmain from './components/Ourservicesmain';
 
 import Navbar from './components/Navbar';
 import serviceour from './components/serviceour';
@@ -93,6 +94,8 @@ function App() {
           <Header/>
             <Routes>
               <Route exact path="/" component={Home} />
+              <Route path='/Ourservicesmain' element={<Ourservicesmain />} />
+
 
 
               <Route path='/Portfolio' element={<Portfolio />} />
@@ -102,13 +105,13 @@ function App() {
               <Route path="/footer" element={<Footer/>} />
               <Route path="/Team" element={<Team/>} />
               <Route path="/aboutus" element={<Aboutus/>} />
-              <Route path="/Services" element={<Ourservices/>} />
               <Route path="/portfolio" element={<Portfolio/>} />
               <Route path="/Form" element={<Social_media_form/>} />
             </Routes>
           </BrowserRouter>
           <Home/>
-          <Ourservices/>
+          <Ourfeature />
+
           <Stats/>
           <Timeline />
           <Portfolio />     
