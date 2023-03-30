@@ -40,11 +40,6 @@ function Contact() {
                   </button>
                </div>
 
-
-
-
-
-
             </form>
          </div>
       </div>

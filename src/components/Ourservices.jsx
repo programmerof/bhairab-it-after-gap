@@ -5,7 +5,7 @@ const Ourservices = () => {
   return (
     <div>
         <>
-  <h1 className="text-4xl text-center border rounded-full relative">
+  <h1 className="text-4xl text-center border rounded-full relative mt-16">
     <span className="bg-gray-800 text-gray-100 px-6 py-3 shadow-md rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       Our
       <br />
@@ -75,6 +75,8 @@ const Ourservices = () => {
 </>
 
     </div>
+
+    
   )
 }
 

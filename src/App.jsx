@@ -14,10 +14,12 @@ import Home from './components/Home';
 import Social_media_form from './components/Social_media_form';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
+import Stats from './components/Stats';
+
+import Navbar from './components/Navbar';
 import serviceour from './components/serviceour';
 
-import Ig_marketing from './components/socialmedia_marketing_components/Ig_marketing';
-import Fb_marketing from './components/socialmedia_marketing_components/fb_marketing';
+
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -106,14 +108,10 @@ function App() {
             </Routes>
           </BrowserRouter>
           <Home/>
-          <Portfolio />
-
-
-         
-
-
+          <Ourservices/>
+          <Stats/>
           <Timeline />
-          <Ourservices />
+          <Portfolio />     
           <PopupForm />
           <Team />
           <Map />

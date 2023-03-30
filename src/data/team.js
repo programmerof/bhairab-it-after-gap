@@ -49,7 +49,7 @@ export default [
     },
     {
         name: 'Prakash',
-        imgUrl: '',
+        imgUrl: '/people/prakash.jpeg',
         introduction: '',
         role: ''
     },
