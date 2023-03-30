@@ -1,72 +1,34 @@
 import React from 'react';
 
-const Tt_marketing = () => {
+function Tt_marketing() {
+  const title = "Project Title";
+  const image = "https://via.placeholder.com/300x200";
+  const details = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien eu ligula sodales varius. Quisque dignissim neque ut odio pharetra, ac gravida mauris aliquam. Ut ullamcorper libero at justo eleifend, vel varius sapien euismod.";
+  const go = "Learn More";
+
   return (
-    <div>
-    <div className="p-8">
-      <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold text-center">
-        <span className="font-bold text-1xl">TIKTOK MARKETING</span>
-        <br />
-        Why Should Your Brand Run TikTok Ads?{" "}
-      </div>
-      <p className="mt-2 text-gray-500">
-        Tiktok has been making moves in the social media world for the last
-        couple of years. Tiktok has over 720 million active users every day.
-        As the fastest growing social platform, young people are actively
-        joining Tiktok and be part of a community that relates to their
-        beliefs. If you are a brand and are not yet on Tiktok, you will miss
-        out on a wide range of benefits. To resonate with the platform’s
-        massive audience, our team conducts extensive research and training
-        specific to TikTok optimization so your content connects with
-        potential customers through every stage of the funnel.
-      </p>
-      <h1 className="mb-0 mt-2 text-indigo-500 font-semibold text-center">
-        {" "}
-        What Services Do We Offer?
-      </h1>
-      <ul className="mt-4 text-gray-500 list-disc list-inside text-center">
-        <li>
-          We have a dedicated team of specialists that will cover all your
-          Tiktok needs
-        </li>
-        <li>
-          We deliver the most viral, captivating &amp; ROI focused marketing
-        </li>
-        <li>
-          Our team work to produce blockbuster creator content for your Tiktok
-          Business profile
-        </li>
-        <li>
-          Our Tik Tok Ads experts are early adopters that help brands exceed
-          their KPIs consistently
-        </li>
-        <li>
-          We strategically develop creative influencer strategies that drive
-          results from day one
-        </li>
-      </ul>
-      <div className="mt-6 flex justify-center">
-        <a
-          href="/Social_media_form"
-          className="inline-block px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-indigo-600 border border-transparent rounded-lg shadow-md hover:shadow-lg active:bg-indigo-800 hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo text-center"
-        >
-          Get Started
+    <ol className="flex flex-col md:flex-row relative border-l border-stone-200 dark:border-stone-700">
+      <li className="mb-10 ml-4 text-center">
+        <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-stone-900 dark:bg-stone-700" />
+        <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
+          <h3 className="text-lg font-semibold text-stone-900 dark:text-white">{title}</h3>
+        </p>
+        {/* image */}
+        <img
+            src={image}
+            alt="portfolio" 
+            className="object-contain w-full h-full md:h-48 md:h-48  cursor-pointer"
+         />         
+        <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">{details}</p>
+       
+        <a href="/Form">
+          <button className="inline-block px-2 py-1 font-semibold text-white dark:text-stone-900 bg-stone-900 dark:bg-white rounded-md">
+            {go}
+          </button>
         </a>
-      </div>
-    </div>
-    <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl shadow-md hover:shadow-lg transition duration-300">
-      <div className="md:flex">
-        <div className="md:flex-shrink-0">
-          <img
-            className="h-24 w-full object-contain md:h-full md:w-48"
-            src="link.png"
-            alt="Image description"
-          />
-        </div>
-      </div>
-    </div>
-    </div>
+      </li>
+    </ol>
   );
-};
+}
 
 export default Tt_marketing;

@@ -7,7 +7,7 @@ export default [
     },
     {
         name: 'Rupesh Oli',
-        imgUrl: 'public/people/rupesh.jpg',
+        imgUrl: '/people/rupesh.jpg',
         introduction: 'For the past three years, Rupesh has been serving to improve operations and drive company growth as the CEO of Bhairab ICT Solution.',
         role: 'Co-Founder'
     },

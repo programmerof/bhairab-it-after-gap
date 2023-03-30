@@ -3,7 +3,7 @@ import React from 'react'
 function TeamItem({ name, imgUrl, introduction, role }) {
   return (
     <a href="#" className="block md:flex md:flex-row md:justify-center md:items-center mb-4">
-      <div className="w-full md:w-64 h-full border-4 border-blue-400 hover:border-blue-500 p-4 flex flex-col justify-between box-border">
+      <div className="w-full md:w-64 h-full border-4 border-blue-400 hover:border-blue-500 p-4 flex flex-col justify-between box-bordergit ">
         <div className="mb-4 md:mb-0">
           <img
             src={imgUrl}

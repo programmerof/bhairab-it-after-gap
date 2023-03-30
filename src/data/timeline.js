@@ -5,7 +5,7 @@ export default [
       image: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg',
       details: 
          'Instagram marketing is how brands use the app to make connections with their target audience. It’s commonly used to market products and services and build brand awareness and loyalty. Its popularity has grown as marketers understand the power of visual content. You may be wondering if paying an agency to strategically position your brand on the platform is worth it. Because there are so many features and possibilities, using a professional instagram marketing service is well worth the investment.',
-		 list:'here'
+	
    },
    {
 		go: 'Get Started',

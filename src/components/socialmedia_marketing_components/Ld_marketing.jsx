@@ -1,35 +1,34 @@
-import React from 'react'
+import React from 'react';
 
-const Ld_marketing = () => {
+function Ld_marketing() {
+  const title = "Project Title";
+  const image = "https://via.placeholder.com/300x200";
+  const details = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor sapien eu ligula sodales varius. Quisque dignissim neque ut odio pharetra, ac gravida mauris aliquam. Ut ullamcorper libero at justo eleifend, vel varius sapien euismod.";
+  const go = "Learn More";
+
   return (
-    <div>
-    <div>
-        <div className="p-8">
-  <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold text-center">
-    LinkedIn Marketing
-  </div>
-  <p className="mt-2 text-gray-500">
-    LinkedIn marketing has amassed 500 million users and is growing at the
-    rate of 2 new users every second. It has become the best platform to
-    connect with potential clients, and build never-ending relationships
-    with them. Having a handsome number of people using it may be a sign
-    of the times to start including LinkedIn marketing in your digital
-    marketing plan.
-  </p>
-  <div className="mt-6 flex justify-center">
-    <a
-      href="/Social_media_form"
-      className="inline-block px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-indigo-600 border border-transparent rounded-lg shadow-md hover:shadow-lg active:bg-indigo-800 hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo text-center"
-    >
-      Get Started
-    </a>
-  </div>
-</div>
-
-
-    </div>
-    </div>
-  )
+    <ol className="flex flex-col md:flex-row relative border-l border-stone-200 dark:border-stone-700">
+      <li className="mb-10 ml-4 text-center">
+        <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-stone-900 dark:bg-stone-700" />
+        <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
+          <h3 className="text-lg font-semibold text-stone-900 dark:text-white">{title}</h3>
+        </p>
+        {/* image */}
+        <img
+            src={image}
+            alt="portfolio" 
+            className="object-contain w-full h-full md:h-48 md:h-48  cursor-pointer"
+         />         
+        <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">{details}</p>
+       
+        <a href="/Form">
+          <button className="inline-block px-2 py-1 font-semibold text-white dark:text-stone-900 bg-stone-900 dark:bg-white rounded-md">
+            {go}
+          </button>
+        </a>
+      </li>
+    </ol>
+  );
 }
 
-export default Ld_marketing
+export default Ld_marketing;

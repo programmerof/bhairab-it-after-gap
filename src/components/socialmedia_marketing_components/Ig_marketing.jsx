@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Ig_marketing() {
   const title = "Project Title";
   const image = "https://via.placeholder.com/300x200";
@@ -28,3 +30,5 @@ function Ig_marketing() {
     </ol>
   );
 }
+
+export default Ig_marketing;

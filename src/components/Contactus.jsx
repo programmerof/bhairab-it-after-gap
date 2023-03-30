@@ -4,55 +4,9 @@ const Contactus = () => {
   return (
     <div>
         <>
-  <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl shadow-md hover:shadow-lg transition duration-300">
-    <div className="md:flex">
-      <div className="md:flex-shrink-0">
-        <img
-          className="h-24 w-full object-contain md:h-full md:w-48"
-          src="https://www.instagram.com/static/images/ico/favicon-192.png/68d99ba29cc8.png"
-          alt="Instagram logo"
-        />
-      </div>
-      <div className="p-8">
-        <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold text-center">
-          Instagram Marketing
-        </div>
-        <p className="mt-2 text-gray-500">
-          Instagram marketing is how brands use the app to make connections with
-          their target audience. It’s commonly used to market products and
-          services and build brand awareness and loyalty. Its popularity has
-          grown as marketers understand the power of visual content. You may be
-          wondering if paying an agency to strategically position your brand on
-          the platform is worth it. Because there are so many features and
-          possibilities, using a professional instagram marketing service is
-          well worth the investment.{" "}
-        </p>
-        <h1 className="mb-0 mt-2 text-indigo-500 font-semibold text-center">
-          {" "}
-          What Instagram Marketing Services Do We Offer?
-        </h1>
-        <ul className="mt-4 text-gray-500 list-disc list-inside">
-          <li>Rolling Instagram marketing and services</li>
-          <li>Instagram listening</li>
-          <li>Audience engagement videos</li>
-          <li>Instagram Ad management</li>
-          <li>Instagram post management</li>
-          <li>Promotional hashtags</li>
-          <li>Influencer marketing</li>
-        </ul>
-        <div className="mt-6 flex justify-center">
 
-          <Link
-            to="/Social_media_form"
-            className="inline-block px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-indigo-600 border border-transparent rounded-lg shadow-md hover:shadow-lg active:bg-indigo-800 hover:bg-indigo-700 focus:outline-none focus:shadow-outline-indigo text-center"
-          >
-            Get Started
-          </Link>
+        {/* Facebook */}
 
-        </div>
-      </div>
-    </div>
-  </div>
   <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl shadow-md hover:shadow-lg transition duration-300">
     <div className="md:flex">
       <div className="md:flex-shrink-0">
@@ -63,7 +17,6 @@ const Contactus = () => {
         />
       </div>
 
-      {/* Facebook */}
       <div className="p-8">
         <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold text-center">
           Facebook Marketing
