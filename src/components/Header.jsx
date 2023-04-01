@@ -54,7 +54,7 @@ const Header = () => {
 
           <div className="sm:hidden ">
           <Link
-              to="/intro"
+              to="/Home"
               className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               Home
@@ -128,19 +128,19 @@ const Header = () => {
               <br />
               <div class="flex flex-row justify-center items-center gap-2">
                 <div>
-                  <img src="" alt="Instagram" class="w-6 h-6 my-2" />
+                  <img src="\socialmediaicon\ig.png" alt="Instagram" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="" alt="Twitter" class="w-6 h-6 my-2" />
+                  <img src="\socialmediaicon\twitter.png" alt="Twitter" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="" alt="LinkedIn" class="w-6 h-6 my-2" />
+                  <img src="\socialmediaicon\ld.png" alt="LinkedIn" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="" alt="TikTok" class="w-6 h-6 my-2" />
+                  <img src="\socialmediaicon\tiktok.png" alt="TikTok" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="" alt="Facebook" class="w-6 h-6 my-2" />
+                  <img src="\socialmediaicon\fb.png" alt="Facebook" class="w-6 h-6 my-2" />
                 </div>
               </div>
             </Link>
@@ -153,7 +153,7 @@ const Header = () => {
           <div className="hidden sm:flex sm:flex-row">
 
             <Link
-              to="/intro"
+              to="/Home"
               className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               Home
@@ -226,20 +226,20 @@ const Header = () => {
               Social Media Service
               <br />
               <div class="flex flex-row justify-center items-center gap-2">
-                <div>
-                  <img src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721672-instagram_108066.png" alt="Instagram" class="w-6 h-6 my-2" />
+              <div>
+                  <img src="\socialmediaicon\ig.png" alt="Instagram" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="https://cdn.icon-icons.com/icons2/122/PNG/512/twitter_socialnetwork_20007.png" alt="Twitter" class="w-6 h-6 my-2" />
+                  <img src="\socialmediaicon\twitter.png" alt="Twitter" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="https://cdn.icon-icons.com/icons2/805/PNG/512/linkedin_icon-icons.com_65929.png" alt="LinkedIn" class="w-6 h-6 my-2" />
+                  <img src="\socialmediaicon\ld.png" alt="LinkedIn" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="https://cdn.icon-icons.com/icons2/2972/PNG/512/tiktok_logo_icon_186896.png" alt="TikTok" class="w-6 h-6 my-2" />
+                  <img src="\socialmediaicon\tiktok.png" alt="TikTok" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="https://cdn.icon-icons.com/icons2/3658/PNG/512/meta_fb_communication_social_media_katana_facebook_icon_228415.png" alt="Facebook" class="w-6 h-6 my-2" />
+                  <img src="\socialmediaicon\fb.png" alt="Facebook" class="w-6 h-6 my-2" />
                 </div>
               </div>
             </Link>
