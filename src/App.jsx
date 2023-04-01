@@ -89,15 +89,13 @@ function App() {
         {theme === 'dark' ? sun : moon}
       </button>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
-        <div className="max-w-5xl w-11/12 mx-auto">
+        <div className="max-w-5xl w-11/12 mx-auto"> 
+         {/* make full screen */}
           <BrowserRouter>
           <Header/>
             <Routes>
               <Route exact path="/" component={Home} />
               <Route path='/Ourservicesmain' element={<Ourservicesmain />} />
-
-
-
               <Route path='/Portfolio' element={<Portfolio />} />
               <Route path="/socialmediaservice" element={<Timeline/>} />
               <Route path="/Notesdiv" element={<Notesdiv/>} />
