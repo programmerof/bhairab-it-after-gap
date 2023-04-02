@@ -1,11 +1,11 @@
 export default [
    {
       title: 'BASE CAMP CAFE',
-      imgUrl: '/assets/BASE CAMP CAFE.jpeg'
+      imgUrl: 'assets/BASE CAMP CAFE.webp'
     },
     {
       title: 'basera',
-      imgUrl: '/assets/basera.jpeg'
+      imgUrl: 'public/assets/basera.webp'
     },
     {
       title: 'bay leaf',
@@ -13,7 +13,7 @@ export default [
     },
     {
       title: 'BHANSA',
-      imgUrl: '/assets/BHANSA.jpeg'
+      imgUrl: 'public/assets/BHANSA.webp'
     },
     {
       title: 'CHEF BASANTA',
@@ -21,7 +21,7 @@ export default [
     },
     {
       title: 'EASY RENTALS',
-      imgUrl: '/assets/EASY RENTALS.jpeg'
+      imgUrl: '/assets/EASY-RENTALS.jpeg'
     },
     {
       title: 'elrose',
@@ -33,7 +33,7 @@ export default [
     },
     {
       title: 'HOTEL SALLERI',
-      imgUrl: '/assets/HOTEL SALLERI.jpeg'
+      imgUrl: '/assets/HOTEL-SALLERI.jpeg'
     },
     {
       title: 'loshiva',
@@ -45,11 +45,11 @@ export default [
     },
     {
       title: 'old town',
-      imgUrl: '/assets/old town.jpeg'
+      imgUrl: '/assets/old-town.jpeg'
     },
     {
       title: 'THE MANTRA',
-      imgUrl: '/assets/THE MANTRA.jpeg'
+      imgUrl: '/assets/THE-MANTRA.jpeg'
     },
     {
       title: 'tokyo',
@@ -57,8 +57,13 @@ export default [
     },
     {
       title: 'tripura resort',
-      imgUrl: '/assets/tripura resort.jpeg'
+      imgUrl: '/assets/tripura-resort.jpeg'
     }
     
    
-]
+  ].map((portfolio) => {
+    return {
+        ...portfolio,
+        imgUrl: portfolio.imgUrl.replace(/\.[^.]+$/, ".webp")
+    };
+});
