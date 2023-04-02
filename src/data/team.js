@@ -53,13 +53,7 @@ export default [
         introduction: '',
         role: ''
     },
-    {
-        name: 'Prakash',
-        imgUrl: '/people/prakash.jpeg',
-        introduction: '',
-        role: ''
-    },
-    {
+      {
         name: 'Nitika Kharel',
         imgUrl: '/people/nitika.jpeg',
         introduction: '',
@@ -74,4 +68,9 @@ export default [
     
 
     
-]
+].map((person) => {
+    return {
+        ...person,
+        imgUrl: person.imgUrl.replace(/\.[^.]+$/, ".webp")
+    };
+});
