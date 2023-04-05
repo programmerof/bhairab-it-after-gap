@@ -109,7 +109,6 @@ function App() {
           </BrowserRouter>
           <Home />
           <Ourfeature />
-          
           <Statistic />
           <Timeline />
           <Portfolio />

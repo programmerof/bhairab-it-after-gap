@@ -18,7 +18,7 @@ export default [
         role: 'Graphic Designer'
     },
     {
-        name: 'Selina',
+        name: 'Selina Budhatholi',
         imgUrl: '/people/selina.jpeg',
         introduction: 'Selina oversees Bhairab ICT Solution’s Project Management, Consulting and Promotions & Engagement teams, working with clients and Bhairab’s internal content marketing experts to ensure operational excellence across the business. Her main responsibilities include providing company leading consultancy and integration to Bhairab’s clients.',
         role: 'President of Services'
