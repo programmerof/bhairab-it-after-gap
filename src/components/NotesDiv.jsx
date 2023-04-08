@@ -22,7 +22,7 @@ const NotesDiv = () => {
     'Physics',
     'Computer Organization and Architecture',
     'Object-Oriented Programming with Java',
-    'Database Management System',
+    'Database Management System', 
     'Computer Networks',
     'Web Technologies',
     'Software Engineering'
@@ -30,7 +30,7 @@ const NotesDiv = () => {
 
   return (
     <div className="bg-white rounded-lg shadow p-6  mx-auto">
-      <h2 className="text-2xl font-bold mb-4">Notes</h2>
+      <h2 className="text-2xl font-bold mb-4">1st sem</h2>
       <ul className="list-disc list-inside">
         {introductionToCsit.map((item, index) => (
           <li key={index}>{item}</li>
