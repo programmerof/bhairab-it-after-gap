@@ -14,7 +14,7 @@ function TimelineItem({ go, title, image, details , paragraph , list }) {
         <img
             src={image}
             alt="portfolio" 
-            className="object-contain w-full h-full md:h-48 md:h-48  cursor-pointer"
+            className="object-contain  lg:h-48  cursor-pointer"
          />         
         <p className="my-2 text-base font-normal text-stone-500 dark:text-stone-400">{details}</p>
        
