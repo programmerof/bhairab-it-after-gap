@@ -6,8 +6,7 @@ function PDFViewer({ url }) {
       src={url}
       frameBorder="0"
       width="100%"
-      height="100%"
-      scrolling="auto"
+      style={{ height: '100vh' }}
     />
   );
 }

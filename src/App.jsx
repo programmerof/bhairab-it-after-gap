@@ -18,6 +18,8 @@ import data from "./data/PortfolioItemDetails";
 
 import MyPdfViewer from './components/Pdfimages';
 
+import SubjectList from './components/SubjectList';
+
 import Stats from './components/Stats';
 import Ourservicesmain from './components/Ourservicesmain';
 
@@ -27,6 +29,7 @@ import serviceour from './components/serviceour';
 import Pdfimage from './components/Pdfimage';
 
 import Statistic from './components/Statistic';
+import Iit from './components/Iit';
 
 function App() {
   return (
@@ -51,19 +54,17 @@ function App() {
             </Routes>
           </BrowserRouter>
           <Home />
-          
-          <MyPdfViewer/>
-          <Pdfimage/>  
+          <Iit/>
           <Ourfeature />
+          <SubjectList/>
           <Statistic />
           <Timeline />
           <Portfolio />
-          <QAComponent data={data} />
+          {/* <QAComponent data={data} /> */}
           <Team />
           <Map />
           <Aboutus />
           <Contact />
-          <Notesdiv />
           <Footer />
         </div>
       </div>
