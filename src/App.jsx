@@ -13,6 +13,8 @@ import Home from './components/Home';
 import Social_media_form from './components/Social_media_form';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Ourfeature from './components/Ourfeature';
+import QAComponent from "./components/QAComponent";
+import data from "./data/PortfolioItemDetails";
 
 import Stats from './components/Stats';
 import Ourservicesmain from './components/Ourservicesmain';
@@ -49,7 +51,7 @@ function App() {
           <Statistic />
           <Timeline />
           <Portfolio />
-          
+          <QAComponent data={data} />
           <Team />
           <Map />
           <Aboutus />
