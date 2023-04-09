@@ -1,66 +1,64 @@
 export default [
   {
-    title: 'BASE CAMP CAFE',
-    imgUrl: 'assets/BASE CAMP CAFE.webp'
+  title: 'The Basecamp Café',
+  imgUrl: 'assets/BASE CAMP CAFE.webp'
   },
   {
-    title: 'basera',
-    imgUrl: '/assets/basera.webp'
+  title: 'Basera Boutique',
+  imgUrl: '/assets/basera.webp'
   },
   {
-    title: 'bay leaf',
-    imgUrl: '/assets/bay leaf.webp'
+  title: 'Bay Leaf Restaurant',
+  imgUrl: '/assets/bay leaf.webp'
   },
   {
-    title: 'BHANSA',
-    imgUrl: '/assets/BHANSA.webp'
+  title: 'Nepali Bhansa Hotel',
+  imgUrl: '/assets/BHANSA.webp'
   },
   {
-    title: 'CHEF BASANTA',
-    imgUrl: '/assets/CHEF BASANTA.webp'
+  title: 'Chef Basanta Restaurant',
+  imgUrl: '/assets/CHEF BASANTA.webp'
   },
   {
-    title: 'EASY RENTALS',
-    imgUrl: '/assets/easy-rentals.webp'
+  title: 'Easy Rental Service',
+  imgUrl: '/assets/easy-rentals.webp'
   },
   {
-    title: 'elrose',
-    imgUrl: '/assets/elrose.webp'
+  title: 'Elrose Education',
+  imgUrl: '/assets/elrose.webp'
   },
   {
-    title: 'gham',
-    imgUrl: '/assets/gham.webp'
+  title: 'Gham Chaya Restaurant',
+  imgUrl: '/assets/gham.webp'
   },
   {
-    title: 'HOTEL SALLERI',
-    imgUrl: '/assets/HOTEL-SALLERI.webp'
+  title: 'Hotel View Salleri',
+  imgUrl: '/assets/HOTEL-SALLERI.webp'
   },
   {
-    title: 'loshiva',
-    imgUrl: '/assets/loshiva.webp'
+  title: 'Loshiva Hotel',
+  imgUrl: '/assets/loshiva.webp'
   },
   {
-    title: 'MAHAJAN',
-    imgUrl: '/assets/MAHAJAN.webp'
+  title: 'Mahajan Industries',
+  imgUrl: '/assets/MAHAJAN.webp'
   },
   {
-    title: 'old town',
-    imgUrl: '/assets/old-town.webp'
+  title: 'Old Town Coffee and Restaurant',
+  imgUrl: '/assets/old-town.webp'
   },
   {
-    title: 'THE MANTRA',
-    imgUrl: '/assets/THE-MANTRA.webp'
+  title: 'The Mantra Hotel',
+  imgUrl: '/assets/THE-MANTRA.webp'
   },
   {
-    title: 'tokyo',
-    imgUrl: '/assets/tokyo.webp'
+  title: 'Tokyo Ramen Restaurant',
+  imgUrl: '/assets/tokyo.webp'
   },
   {
-    title: 'tripura resort',
-    imgUrl: '/assets/tripura-resort.webp'
+  title: 'Tripura Resort',
+  imgUrl: '/assets/tripura-resort.webp'
   }
-
-] 
-
+  ];
 
 ;

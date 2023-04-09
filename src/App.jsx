@@ -49,7 +49,7 @@ function App() {
           <Statistic />
           <Timeline />
           <Portfolio />
-          <PopupForm />
+          
           <Team />
           <Map />
           <Aboutus />
