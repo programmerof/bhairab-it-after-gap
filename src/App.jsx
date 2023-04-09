@@ -16,11 +16,15 @@ import Ourfeature from './components/Ourfeature';
 import QAComponent from "./components/QAComponent";
 import data from "./data/PortfolioItemDetails";
 
+import MyPdfViewer from './components/Pdfimages';
+
 import Stats from './components/Stats';
 import Ourservicesmain from './components/Ourservicesmain';
 
 import Navbar from './components/Navbar';
 import serviceour from './components/serviceour';
+
+import Pdfimage from './components/Pdfimage';
 
 import Statistic from './components/Statistic';
 
@@ -47,6 +51,9 @@ function App() {
             </Routes>
           </BrowserRouter>
           <Home />
+          
+          <MyPdfViewer/>
+          <Pdfimage/>  
           <Ourfeature />
           <Statistic />
           <Timeline />
