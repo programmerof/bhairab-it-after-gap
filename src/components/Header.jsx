@@ -150,7 +150,7 @@ const Header = () => {
           </div>
 
           {/* LAPTOP SCREEN  */}
-          <div className="hidden sm:flex sm:flex-row  bg-red-500 rounded-xl ml-auto pt-2 pb-2 pl-2">
+          <div className="hidden sm:flex sm:flex-row  bg-blue-400 rounded-xl ml-auto pt-2 pb-2 pl-2">
 
             <Link
               to="/Home"

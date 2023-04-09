@@ -3,7 +3,7 @@ import React from 'react'
 const Aboutus = () => {
   return (
     <div>
-        <section className="bg-gray-100 py-16 lg:py-24">
+        <section className="bg-gray-100  lg:py-12">
   <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-center h-full">
     <div className="max-w-md mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl shadow-md hover:shadow-lg transition duration-300">
       <div className="md:flex">
