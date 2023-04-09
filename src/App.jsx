@@ -29,7 +29,24 @@ import serviceour from './components/serviceour';
 import Pdfimage from './components/Pdfimage';
 
 import Statistic from './components/Statistic';
-import Iit from './components/Iit';
+
+import Iit from './components/Iit2074';
+import Iit2075 from './components/IIt2075';
+import Iit2078 from './components/Iit2078';
+import Iit2074 from './components/Iit2074';
+import Iit2079 from './components/Iit2079';
+
+import CProgramming2079 from './components/c/CProgramming2079';
+import CProgramming2074 from './components/c/CProgramming2074';
+import CProgramming2075 from './components/c/CProgramming2075';
+import CProgramming2077 from './components/c/CProgramming2077';
+import CProgramming2078 from './components/c/CProgramming2078';
+
+import Dl1 from "./components/digital logic/Dl1";
+
+
+import Aftersubjectlist from './components/Aftersubjectlist';
+
 
 function App() {
   return (
@@ -51,12 +68,41 @@ function App() {
               <Route path="/aboutus" element={<Aboutus />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/Form" element={<Social_media_form />} />
+
+              <Route path="/Iit" element={<Iit />} />
+              <Route path="/Iit2075" element={<Iit2075 />} />
+              <Route path="/Iit2078" element={<Iit2078 />} />
+              <Route path="/Iit2074" element={<Iit2074 />} />
+              <Route path="/Iit2079" element={< Iit2079 />} />
+
+              <Route path="/c2074" element={< CProgramming2074 />} />
+              <Route path="/c2075" element={< CProgramming2075 />} />
+              <Route path="/c2077" element={<CProgramming2077 />} />
+              <Route path="/c2078" element={< CProgramming2078 />} />
+              <Route path="/c2079" element={< CProgramming2079 />} />
+
+              <Route path="/Iit" element={<Iit />} />
+              <Route path="/Iit2075" element={<Iit2075 />} />
+              <Route path="/Iit2078" element={<Iit2078 />} />
+              <Route path="/Iit2074" element={<Iit2074 />} />
+              <Route path="/Iit2079" element={< Iit2079 />} />
+
+              <Route path="/Iit" element={<Iit />} />
+              <Route path="/Iit2075" element={<Iit2075 />} />
+              <Route path="/Iit2078" element={<Iit2078 />} />
+              <Route path="/Iit2074" element={<Iit2074 />} />
+              <Route path="/Iit2079" element={< Iit2079 />} />
+
             </Routes>
           </BrowserRouter>
           <Home />
-          <Iit/>
+
+
+          <Dl1 />
+          
           <Ourfeature />
-          <SubjectList/>
+
+          <SubjectList />
           <Statistic />
           <Timeline />
           <Portfolio />

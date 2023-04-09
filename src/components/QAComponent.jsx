@@ -16,6 +16,30 @@ function QAComponent({ data }) {
               <div className="flex flex-col">
                 <dt className="text-lg leading-6 font-medium text-gray-900 hover:text-blue-600 transition duration-200 ease-in-out">{item.question}</dt>
                 <dd className="mt-2 text-base text-gray-500 font-light hover:text-gray-700 transition duration-200 ease-in-out">{item.answer}</dd>
+                <table className="table-auto mt-4">
+                  <thead>
+                    <tr>
+                      <th className="px-4 py-2">Side 1</th>
+                      <th className="px-4 py-2">Side 2</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td className="border px-4 py-2">{item.side1}</td>
+                      <td className="border px-4 py-2">{item.side2}</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div className="mt-4">
+                  <img src={item.imageUrl} alt="related image" />
+                </div>
+                <div className="mt-4">
+                  <ul className="list-disc list-inside">
+                    {item.points.map((point, index) => (
+                      <li key={index}>{point}</li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
           ))}
@@ -24,7 +48,5 @@ function QAComponent({ data }) {
     </div>
   );
 }
-
-
 
 export default QAComponent;

@@ -9,6 +9,7 @@ function Team() {
 ICT Solution a thriving company.</h1>
            
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-4 text-center">
+        {/* to make more people fit change 6  */}
         {team.map(teamItem => (
           <TeamItem 
             imgUrl={teamItem.imgUrl}
