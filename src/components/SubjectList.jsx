@@ -8,20 +8,20 @@ const subjects = [{
     link: '/Iit',
   },
   {
-    name: 'Topic 2075',
+    name: ' 2075',
     link: '/Iit2075',
   },
   {
-    name: 'Topic 2078',
+    name: ' 2078',
     link: '/Iit2078',
   },
   {
-    name: 'Topic 2074',
+    name: ' 2074',
     link: '/Iit2074',
   },
   
   {
-    name: 'Topic 2079',
+    name: ' 2079',
     link: '/Iit2079',
   },],
   link: '',
@@ -53,7 +53,7 @@ const subjects = [{
     },
    
   ],
-  link: 'https://example.com/subject-2',
+  link: '#',
 },
 {
   name: 'Digital Logic',
@@ -61,16 +61,12 @@ const subjects = [{
   semester: 'first',
   topics: [
     {
-      name: 'Topic 3',
-      link: 'https://example.com/topic-3',
+      name: 'note',
+      link: '/ds',
     },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    }
-    ,
+    
   ],
-  link: 'https://example.com/subject-2',
+  link: '#',
 },
 
 {
@@ -79,27 +75,12 @@ const subjects = [{
   semester: 'first',
   topics: [
     {
-      name: 'Topic 3',
-      link: 'https://example.com/topic-3',
+      name: '2074',
+      link: '/Math2075',
     },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
+   
   ],
-  link: 'https://youtube.com',
+  link: '#',
 },
 
 {
@@ -108,15 +89,12 @@ const subjects = [{
   semester: 'first',
   topics: [
     {
-      name: 'Topic 3',
-      link: 'https://example.com/topic-3',
+      name: 'note ',
+      link: '/physics2074',
     },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
+    
   ],
-  link: 'https://example.com/subject-2',
+  link: '#',
 },
 {
   name: 'Discrete Structure',
@@ -124,15 +102,12 @@ const subjects = [{
   semester: 'second',
   topics: [
     {
-      name: 'Topic 3',
-      link: 'https://example.com/topic-3',
+      name: 'note',
+      link: '/Ds',
     },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
+    
   ],
-  link: 'https://example.com/subject-2',
+  link: '#',
 },
 {
   name: 'Object-Oriented Programming',
@@ -140,15 +115,12 @@ const subjects = [{
   semester: 'second',
   topics: [
     {
-      name: 'Topic 3',
-      link: 'https://example.com/topic-3',
+      name: 'note',
+      link: '/OOP',
     },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
+    
   ],
-  link: 'https://example.com/subject-2',
+  link: '#',
 },
 {
   name: 'Microprocessor',
@@ -156,33 +128,14 @@ const subjects = [{
   semester: 'second',
   topics: [
     {
-      name: 'Topic 3',
-      link: 'https://example.com/topic-3',
+      name: 'note',
+      link: '/Microprocessor',
     },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
+   
   ],
-  link: 'https://example.com/subject-2',
+  link: '#',
 },
 
-{
-  name: 'Statistics I',
-  year: 1,
-  semester: 'second',
-  topics: [
-    {
-      name: 'Topic 3',
-      link: 'https://example.com/topic-3',
-    },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
-  ],
-  link: 'https://example.com/subject-2',
-},
 
 {
   name: 'Mathematics II',
@@ -190,15 +143,12 @@ const subjects = [{
   semester: 'second',
   topics: [
     {
-      name: 'Topic 3',
-      link: 'https://example.com/topic-3',
+      name: 'note',
+      link: '/Math2',
     },
-    {
-      name: 'Topic 4',
-      link: 'https://example.com/topic-4',
-    },
+    
   ],
-  link: 'https://example.com/subject-2',
+  link: '#',
 },
 
 

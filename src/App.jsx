@@ -42,12 +42,15 @@ import CProgramming2075 from './components/c/CProgramming2075';
 import CProgramming2077 from './components/c/CProgramming2077';
 import CProgramming2078 from './components/c/CProgramming2078';
 
-import Dl1 from "./components/digital logic/Dl1";
+import Physics2074 from "./components/Physics2074";
+
+import Math2075 from "./components/Math2075";
+import Math2 from './components/Secondsemnotes.jsx/Math2';
+import Objectorientedprogramming from './components/Secondsemnotes.jsx/Objectorientedprogramming';
+import Ds from './components/Secondsemnotes.jsx/Ds';
 
 
-import Aftersubjectlist from './components/Aftersubjectlist';
-
-
+import Microprocessor from "./components/Secondsemnotes.jsx/Microprocessor";
 function App() {
   return (
     <>
@@ -66,7 +69,6 @@ function App() {
               <Route path="/footer" element={<Footer />} />
               <Route path="/Team" element={<Team />} />
               <Route path="/aboutus" element={<Aboutus />} />
-              <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/Form" element={<Social_media_form />} />
 
               <Route path="/Iit" element={<Iit />} />
@@ -81,26 +83,23 @@ function App() {
               <Route path="/c2078" element={< CProgramming2078 />} />
               <Route path="/c2079" element={< CProgramming2079 />} />
 
-              <Route path="/Iit" element={<Iit />} />
-              <Route path="/Iit2075" element={<Iit2075 />} />
-              <Route path="/Iit2078" element={<Iit2078 />} />
-              <Route path="/Iit2074" element={<Iit2074 />} />
-              <Route path="/Iit2079" element={< Iit2079 />} />
+              {/* <Route path="/Dl1" element={<Dl1 />} />
+              <Route path="/Dl2" element={<Dl2 />} />
+              <Route path="/Dl3" element={<Dl3 />} /> */}
 
-              <Route path="/Iit" element={<Iit />} />
-              <Route path="/Iit2075" element={<Iit2075 />} />
-              <Route path="/Iit2078" element={<Iit2078 />} />
-              <Route path="/Iit2074" element={<Iit2074 />} />
-              <Route path="/Iit2079" element={< Iit2079 />} />
-
+              <Route path="/physics2074" element={< Physics2074 />} />
+              <Route path="/Math2075" element={< Math2075 />} />
+              <Route path="/OOP" element={< Objectorientedprogramming />} />
+              <Route path="/Math2" element={< Math2/>} />
+              <Route path="/Ds" element={< Ds />} />
+             <Route path="/Microprocessor" element={< Microprocessor />} />
+             <Route path="/Ds" element={< Ds />} />
             </Routes>
           </BrowserRouter>
-          <Home />
-
-
-          <Dl1 />
-          
+          <Home />      
           <Ourfeature />
+
+          {/* <Physics2074 /> */}
 
           <SubjectList />
           <Statistic />
@@ -110,8 +109,13 @@ function App() {
           <Team />
           <Map />
           <Aboutus />
+
           <Contact />
           <Footer />
+
+<Iit2074/>
+          
+
         </div>
       </div>
     </>
