@@ -1,157 +1,82 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const subjects = [{
-  name: 'Introduction to Information Technology', year: 1, 
-  semester: 'first', 
-  topics: [{
-    name: 'Intro',
-    link: '/Iit',
+const subjects = [
+  {
+    name: 'Introduction to Information Technology',
+    year: 1,
+    semester: 'first',
+    topics: [
+      { name: 'Intro', link: '/Iit' },
+      { name: '2075', link: '/Iit2075' },
+      { name: '2078', link: '/Iit2078' },
+      { name: '2074', link: '/Iit2074' },
+      { name: '2079', link: '/Iit2079' },
+    ],
+    link: '',
   },
   {
-    name: ' 2075',
-    link: '/Iit2075',
+    name: 'C Programming',
+    year: 1,
+    semester: 'first',
+    topics: [
+      { name: 'CProgramming2074', link: '/c2074' },
+      { name: 'CProgramming2075', link: '/c2075' },
+      { name: 'CProgramming2077', link: '/c2077' },
+      { name: 'CProgramming2078', link: '/c2078' },
+      { name: 'CProgramming2079', link: '/c2079' },
+    ],
+    link: '#',
   },
   {
-    name: ' 2078',
-    link: '/Iit2078',
+    name: 'Digital Logic',
+    year: 1,
+    semester: 'first',
+    topics: [{ name: 'note', link: '/ds' }],
+    link: '#',
   },
   {
-    name: ' 2074',
-    link: '/Iit2074',
+    name: 'Mathematics I',
+    year: 1,
+    semester: 'first',
+    topics: [{ name: '2074', link: '/Math2075' }],
+    link: '#',
   },
-  
   {
-    name: ' 2079',
-    link: '/Iit2079',
-  },],
-  link: '',
-},
-{
-  name: 'C Programming',
-  year: 1,
-  semester: 'first',
-  topics: [
-    {
-      name: 'CProgramming2074',
-      link: '/c2074',
-    },
-    {
-      name: 'CProgramming2075',
-      link: '/c2075',
-    },
-    {
-      name: 'CProgramming2077',
-      link: '/c2077',
-    },
-    {
-      name: 'CProgramming2078',
-      link: '/c2078',
-    },
-    {
-      name: 'CProgramming2079',
-      link: '/c2079',
-    },
-   
-  ],
-  link: '#',
-},
-{
-  name: 'Digital Logic',
-  year: 1,
-  semester: 'first',
-  topics: [
-    {
-      name: 'note',
-      link: '/ds',
-    },
-    
-  ],
-  link: '#',
-},
-
-{
-  name: 'Mathematics I',
-  year: 1,
-  semester: 'first',
-  topics: [
-    {
-      name: '2074',
-      link: '/Math2075',
-    },
-   
-  ],
-  link: '#',
-},
-
-{
-  name: 'Physics',
-  year: 1,
-  semester: 'first',
-  topics: [
-    {
-      name: 'note ',
-      link: '/physics2074',
-    },
-    
-  ],
-  link: '#',
-},
-{
-  name: 'Discrete Structure',
-  year: 1,
-  semester: 'second',
-  topics: [
-    {
-      name: 'note',
-      link: '/Ds',
-    },
-    
-  ],
-  link: '#',
-},
-{
-  name: 'Object-Oriented Programming',
-  year: 1,
-  semester: 'second',
-  topics: [
-    {
-      name: 'note',
-      link: '/OOP',
-    },
-    
-  ],
-  link: '#',
-},
-{
-  name: 'Microprocessor',
-  year: 1,
-  semester: 'second',
-  topics: [
-    {
-      name: 'note',
-      link: '/Microprocessor',
-    },
-   
-  ],
-  link: '#',
-},
-
-
-{
-  name: 'Mathematics II',
-  year: 1,
-  semester: 'second',
-  topics: [
-    {
-      name: 'note',
-      link: '/Math2',
-    },
-    
-  ],
-  link: '#',
-},
-
-
+    name: 'Physics',
+    year: 1,
+    semester: 'first',
+    topics: [{ name: 'note ', link: '/physics2074' }],
+    link: '#',
+  },
+  {
+    name: 'Discrete Structure',
+    year: 1,
+    semester: 'second',
+    topics: [{ name: 'note', link: '/Ds' }],
+    link: '#',
+  },
+  {
+    name: 'Object-Oriented Programming',
+    year: 1,
+    semester: 'second',
+    topics: [{ name: 'note', link: '/OOP' }],
+    link: '#',
+  },
+  {
+    name: 'Microprocessor',
+    year: 1,
+    semester: 'second',
+    topics: [{ name: 'note', link: '/Microprocessor' }],
+    link: '#',
+  },
+  {
+    name: 'Mathematics II',
+    year: 1,
+    semester: 'second',
+    topics: [{ name: 'note', link: '/Math2' }],
+    link: '#',
+  },
 ];
 
 const SubjectList = () => {

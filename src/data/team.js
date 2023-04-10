@@ -2,13 +2,12 @@ export default [
     {
         name: 'Sajag Pokharel',
         imgUrl: '/people/sajag_pokharel.jpeg',
-        introduction: 'Sajag is an entrepreneur specializing in building content marketing, marketing technology and social media marketing services businesses. Over the last four years, he has founded a group of companies that today are Nepal’s leading digital marketing agencies, employing over 50 professionals across the country.',
-        role: 'CEO / Founder'
+        introduction: 'As a CEO, Sajag would be the highest-ranking executive in a company, responsible for making strategic decisions and leading the organization to success. Sajags primary duties would include setting the companys overall strategy, overseeing daily operations, managing finances, and making major business decisions. Sajag would be the face of the company, representing it to investors, partners, and the public.'
     },
     {
         name: 'Rupesh Oli',
         imgUrl: '/people/rupesh.jpg',
-        introduction: 'For the past three years, Rupesh has been serving to improve operations and drive company growth as the CEO of Bhairab ICT Solution.',
+        introduction: 'Rupesh is responsible for managing and directing the organizations day-to-day operations. He would be accountable for implementing the companys overall strategy, achieving financial goals, and ensuring that the company is meeting its objectives.',
         role: 'Co-Founder'
     },
     {
@@ -32,7 +31,7 @@ export default [
     {
         name: 'Bishal Khadka',
         imgUrl: '/people/bishal_khadka.jpg',
-        introduction: '',
+        introduction: 'Bishal is responsible for creating visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, or captivate consumers. He would work on various design projects, including websites, logos, branding, packaging, and advertising materials.',
         role: ''
     },
     {
@@ -50,13 +49,13 @@ export default [
     {
         name: 'Prakash',
         imgUrl: '/people/prakash.jpeg',
-        introduction: '',
+        introduction: 'Prakash would use their technical skills, creativity, and artistic vision to produce high-quality photographs that tell a story, evoke emotions, or showcase the beauty of a subject or scene.',
         role: ''
     },
       {
         name: 'Nitika Kharel',
         imgUrl: '/people/nitika.jpeg',
-        introduction: '',
+        introduction: 'Nitika someone who creates and publishes original content across various media channels such as social media platforms, blogs, websites, podcasts, or video sharing platforms. She is responsible for coming up with unique and engaging ideas, researching and gathering information, creating and editing content, and promoting it to their target audience. The content she  create could take various forms, including written articles, photos, videos, podcasts, and more.',
         role: ''
     },
     {
