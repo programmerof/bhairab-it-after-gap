@@ -58,7 +58,45 @@ export default [
   {
   title: 'Tripura Resort',
   imgUrl: '/assets/tripura-resort.webp'
-  }
+  },
+
+  {
+    title: 'Client 1',
+    imgUrl: 'public/Bhairabwork/bhairabwork1.jpg',
+    },
+  {
+    title: 'Client 2',
+    imgUrl: 'public/Bhairabwork/bhairabwork2.jpg',
+    },
+  {
+    title: 'Client 3',
+    imgUrl: 'public/Bhairabwork/bhairabwork3.jpg',
+    },
+  {
+    title: 'Client 4',
+    imgUrl: 'public/Bhairabwork/bhairabwork4.jpg',
+    },
+  {
+    title: 'Client 5',
+    imgUrl: 'public/Bhairabwork/bhairabwork5.jpg',
+    },
+  {
+    title: 'Client 6',
+    imgUrl: 'public/Bhairabwork/bhairabwork6.jpg',
+    },
+  {
+    title: 'Client 7',
+    imgUrl: 'public/Bhairabwork/bhairabwork7.jpg',
+    },
+  {
+    title: 'Client 8',
+    imgUrl: 'public/Bhairabwork/bhairabwork8.jpg',
+    },
+  {
+    title: 'Client 9',
+    imgUrl: 'public/Bhairabwork/bhairabwork9.jpg',
+  },
+ 
   ];
 
 ;

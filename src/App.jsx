@@ -30,6 +30,7 @@ import Math2 from './components/Secondsemnotes.jsx/Math2';
 import Objectorientedprogramming from './components/Secondsemnotes.jsx/Objectorientedprogramming';
 import Ds from './components/Secondsemnotes.jsx/Ds';
 import Microprocessor from "./components/Secondsemnotes.jsx/Microprocessor";
+import Seeclients from './components/Seeclients';
 
 function App() {
   return (
@@ -47,13 +48,11 @@ function App() {
               <Route path="/Notesdiv" element={<Notesdiv />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/footer" element={<Footer />} />
-              <Route path="/Team" element={<Team />} />
-              <Route path="/aboutus" element={<Aboutus />} />
+              <Route path="/aboutus" element={<Team />} />
+              <Route path="/Team" element={<Aboutus />} />
               <Route path="/Form" element={<Social_media_form />} />
 
-              {/* <Route path="/Iit" element={<Iit />} /> */}
-              <Route path="/Iit" element={<p>paragraph</p>} />
-
+              <Route path="/Iit" element={<Iit />} />
               <Route path="/Iit2075" element={<Iit2075 />} />
               <Route path="/Iit2078" element={<Iit2078 />} />
               <Route path="/Iit2074" element={<Iit2074 />} />
@@ -64,26 +63,25 @@ function App() {
               <Route path="/c2077" element={<CProgramming2077 />} />
               <Route path="/c2078" element={< CProgramming2078 />} />
               <Route path="/c2079" element={< CProgramming2079 />} />
-        
+
               <Route path="/physics2074" element={< Physics2074 />} />
 
               <Route path="/Math2075" element={< Math2075 />} />
 
               <Route path="/OOP" element={< Objectorientedprogramming />} />
-              <Route path="/Math2" element={< Math2/>} />
+              <Route path="/Math2" element={< Math2 />} />
               <Route path="/Ds" element={< Ds />} />
-             <Route path="/Microprocessor" element={< Microprocessor />} />
-             <Route path="/Ds" element={< Ds />} />
+              <Route path="/Microprocessor" element={< Microprocessor />} />
+              <Route path="/Ds" element={< Ds />} />
 
             </Routes>
           </BrowserRouter>
-          <Home />      
+          <Home />
           <Ourfeature />
 
           {/* <Physics2074 /> */}
 
           <SubjectList />
-          <Timeline />
           <Portfolio />
           {/* <QAComponent data={data} /> */}
           <Team />
@@ -93,7 +91,7 @@ function App() {
           <Contact />
           <Footer />
 
-          
+
         </div>
       </div>
     </>
