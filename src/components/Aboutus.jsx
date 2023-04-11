@@ -23,7 +23,6 @@ const Aboutus = () => {
             impactful and creative marketing services.
           </p>
           <h1 className="mb-0 mt-2 text-indigo-500 font-semibold text-center">
-            
             Why Work With Us
           </h1>
           <ul className="mt-4 text-gray-500 list-disc list-inside text-center">
@@ -40,6 +39,23 @@ const Aboutus = () => {
               Get Started
             </a>
           </div>
+
+          <div className="mt-8 text-gray-500 text-center">
+            <p>
+              CONTACT: +977 9860675191
+              <br />
+              GMAIL: bhairabictsolution@gmail.com
+              <br />
+              INSTA: <a href="https://www.instagram.com/bhairabictsolution/">@bhairabictsolution</a>
+              <br />
+              FACEBOOK: <a href="https://www.facebook.com/bhairabICTsolution">bhairabICTsolution</a>
+              <br />
+              TIKTOK: <a href="https://www.tiktok.com/@bhairabictsolution">@bhairabictsolution</a>
+              <br />
+              WhatsApp: <a href="tel:+9779860675191">+9779860675191</a>
+            </p>
+          </div>
+
         </div>
       </div>
     </div>

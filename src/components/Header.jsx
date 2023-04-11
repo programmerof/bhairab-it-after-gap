@@ -12,7 +12,7 @@ const Header = () => {
     <nav className="flex items-center justify-between flex-wrap bg-blue-300 p-4 ">
       <div class="flex items-center flex-shrink-0 text-white mr-48">
         <a href="/">
-          <img src="bhairabictlogo.png" alt="Bhairab IT Solutions logo" width="100" height="50"
+          <img src="/assets/bhairabictlogo.png" alt="Bhairab IT Solutions logo" width="100" height="50"
             class="transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" />
         </a>
       </div>
@@ -53,9 +53,9 @@ const Header = () => {
         <div className="flex text-sm sm:flex-grow">
 
           <div className="sm:hidden ">
-            <Link
+          <Link
               to="/Home"
-              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
+              className="mr-4 bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               Home
               <br />
@@ -68,7 +68,7 @@ const Header = () => {
 
             <Link
               to="/Ourservicesmain"
-              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
+              className="mr-4 bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               Services
               <br />
@@ -77,11 +77,11 @@ const Header = () => {
                   <img src="https://img.icons8.com/plasticine/256/services.png" alt="Services" class="w-6 h-6 my-2" />
                 </div>
               </div>
-            </Link>
-
+            </Link>NPM
+            
             <Link
               to="/aboutus"
-              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
+              className="mr-4 bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               About us
               <br />
@@ -94,7 +94,7 @@ const Header = () => {
 
             <Link
               to="/team"
-              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
+              className="mr-4 bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               Contact us
               <br />
@@ -107,7 +107,7 @@ const Header = () => {
 
             <Link
               to='/portfolio'
-              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
+              className="mr-4 bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
               Work Portfolio
               <br />
@@ -128,19 +128,19 @@ const Header = () => {
               <br />
               <div class="flex flex-row justify-center items-center gap-2">
                 <div>
-                  <img src="\socialmediaicon\ig.png" alt="Instagram" class="w-6 h-6 my-2" />
+                  <img src="/assets\socialmediaicon\ig.png" alt="Instagram" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="\socialmediaicon\twitter.png" alt="Twitter" class="w-6 h-6 my-2" />
+                  <img src="/assets\socialmediaicon\twitter.png" alt="Twitter" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="\socialmediaicon\ld.png" alt="LinkedIn" class="w-6 h-6 my-2" />
+                  <img src="/assets\socialmediaicon\ld.png" alt="LinkedIn" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="\socialmediaicon\tiktok.png" alt="TikTok" class="w-6 h-6 my-2" />
+                  <img src="/assets\socialmediaicon\tiktok.png" alt="TikTok" class="w-6 h-6 my-2" />
                 </div>
                 <div>
-                  <img src="\socialmediaicon\fb.png" alt="Facebook" class="w-6 h-6 my-2" />
+                  <img src="/assets\socialmediaicon\fb.png" alt="Facebook" class="w-6 h-6 my-2" />
                 </div>
               </div>
             </Link>
@@ -225,19 +225,19 @@ const Header = () => {
   </div>
   <div className="flex flex-row justify-center items-center gap-2">
     <a href="https://www.instagram.com/bhairabictsolution/" target="_blank">
-      <img src="\socialmediaicon\ig.png" alt="Instagram" className="w-6 h-6 my-2" />
+      <img src="/assets\socialmediaicon\ig.png" alt="Instagram" className="w-6 h-6 my-2" />
     </a>
     <a href="https://twitter.com" target="_blank">
-      <img src="\socialmediaicon\twitter.png" alt="Twitter" className="w-6 h-6 my-2" />
+      <img src="/assets\socialmediaicon\twitter.png" alt="Twitter" className="w-6 h-6 my-2" />
     </a>
     <a href="https://www.linkedin.com" target="_blank">
-      <img src="\socialmediaicon\ld.png" alt="LinkedIn" className="w-6 h-6 my-2" />
+      <img src="/assets\socialmediaicon\ld.png" alt="LinkedIn" className="w-6 h-6 my-2" />
     </a>
     <a href="https://www.tiktok.com/@bhairabictsolution1" target="_blank">
-      <img src="\socialmediaicon\tiktok.png" alt="TikTok" className="w-6 h-6 my-2" />
+      <img src="/assets\socialmediaicon\tiktok.png" alt="TikTok" className="w-6 h-6 my-2" />
     </a>
     <a href="https://www.facebook.com/BhairabICTS" target="_blank">
-      <img src="\socialmediaicon\fb.png" alt="Facebook" className="w-6 h-6 my-2" />
+      <img src="/assets\socialmediaicon\fb.png" alt="Facebook" className="w-6 h-6 my-2" />
     </a>
   </div>
 </div>

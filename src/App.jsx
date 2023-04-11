@@ -82,13 +82,13 @@ function App() {
           {/* <Physics2074 /> */}
 
           <SubjectList />
-          <Portfolio />
+          {/* <Portfolio /> */}
           {/* <QAComponent data={data} /> */}
-          <Team />
+          {/* <Team />
           <Map />
-          <Aboutus />
+          <Aboutus /> */}
 
-          <Contact />
+          {/* <Contact /> */}
           <Footer />
 
 
