@@ -53,7 +53,7 @@ const Header = () => {
         <div className="flex text-sm sm:flex-grow">
 
           <div className="sm:hidden ">
-          <Link
+            <Link
               to="/Home"
               className="mr-4 bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
             >
@@ -77,8 +77,8 @@ const Header = () => {
                   <img src="https://img.icons8.com/plasticine/256/services.png" alt="Services" class="w-6 h-6 my-2" />
                 </div>
               </div>
-            </Link>NPM
-            
+            </Link>
+
             <Link
               to="/aboutus"
               className="mr-4 bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
@@ -118,32 +118,32 @@ const Header = () => {
               </div>
             </Link>
 
+            
 
 
-            <Link
-              to='/socialmediaservice'
-              className="bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md flex flex-col items-center"
-            >
-              Social Media Service
-              <br />
-              <div class="flex flex-row justify-center items-center gap-2">
-                <div>
-                  <img src="/assets\socialmediaicon\ig.png" alt="Instagram" class="w-6 h-6 my-2" />
-                </div>
-                <div>
-                  <img src="/assets\socialmediaicon\twitter.png" alt="Twitter" class="w-6 h-6 my-2" />
-                </div>
-                <div>
-                  <img src="/assets\socialmediaicon\ld.png" alt="LinkedIn" class="w-6 h-6 my-2" />
-                </div>
-                <div>
-                  <img src="/assets\socialmediaicon\tiktok.png" alt="TikTok" class="w-6 h-6 my-2" />
-                </div>
-                <div>
-                  <img src="/assets\socialmediaicon\fb.png" alt="Facebook" class="w-6 h-6 my-2" />
-                </div>
+
+            <div className="mr-4 bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md">
+              <div className="flex flex-col items-center">
+                <div className="mb-2">Social Media Service</div>
               </div>
-            </Link>
+              <div className="flex flex-row justify-center items-center gap-2">
+                <a href="https://www.instagram.com/bhairabictsolution/" target="_blank">
+                  <img src="/assets\socialmediaicon\ig.png" alt="Instagram" className="w-6 h-6 my-2" />
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                  <img src="/assets\socialmediaicon\twitter.png" alt="Twitter" className="w-6 h-6 my-2" />
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <img src="/assets\socialmediaicon\ld.png" alt="LinkedIn" className="w-6 h-6 my-2" />
+                </a>
+                <a href="https://www.tiktok.com/@bhairabictsolution1" target="_blank">
+                  <img src="/assets\socialmediaicon\tiktok.png" alt="TikTok" className="w-6 h-6 my-2" />
+                </a>
+                <a href="https://www.facebook.com/BhairabICTS" target="_blank">
+                  <img src="/assets\socialmediaicon\fb.png" alt="Facebook" className="w-6 h-6 my-2" />
+                </a>
+              </div>
+            </div>
 
 
 
@@ -220,27 +220,27 @@ const Header = () => {
 
 
             <div className="mr-4 bg-gray-800 text-gray-100 hover:text-gray-50 hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium shadow-md">
-  <div className="flex flex-col items-center">
-    <div className="mb-2">Social Media Service</div>
-  </div>
-  <div className="flex flex-row justify-center items-center gap-2">
-    <a href="https://www.instagram.com/bhairabictsolution/" target="_blank">
-      <img src="/assets\socialmediaicon\ig.png" alt="Instagram" className="w-6 h-6 my-2" />
-    </a>
-    <a href="https://twitter.com" target="_blank">
-      <img src="/assets\socialmediaicon\twitter.png" alt="Twitter" className="w-6 h-6 my-2" />
-    </a>
-    <a href="https://www.linkedin.com" target="_blank">
-      <img src="/assets\socialmediaicon\ld.png" alt="LinkedIn" className="w-6 h-6 my-2" />
-    </a>
-    <a href="https://www.tiktok.com/@bhairabictsolution1" target="_blank">
-      <img src="/assets\socialmediaicon\tiktok.png" alt="TikTok" className="w-6 h-6 my-2" />
-    </a>
-    <a href="https://www.facebook.com/BhairabICTS" target="_blank">
-      <img src="/assets\socialmediaicon\fb.png" alt="Facebook" className="w-6 h-6 my-2" />
-    </a>
-  </div>
-</div>
+              <div className="flex flex-col items-center">
+                <div className="mb-2">Social Media Service</div>
+              </div>
+              <div className="flex flex-row justify-center items-center gap-2">
+                <a href="https://www.instagram.com/bhairabictsolution/" target="_blank">
+                  <img src="/assets\socialmediaicon\ig.png" alt="Instagram" className="w-6 h-6 my-2" />
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                  <img src="/assets\socialmediaicon\twitter.png" alt="Twitter" className="w-6 h-6 my-2" />
+                </a>
+                <a href="https://www.linkedin.com" target="_blank">
+                  <img src="/assets\socialmediaicon\ld.png" alt="LinkedIn" className="w-6 h-6 my-2" />
+                </a>
+                <a href="https://www.tiktok.com/@bhairabictsolution1" target="_blank">
+                  <img src="/assets\socialmediaicon\tiktok.png" alt="TikTok" className="w-6 h-6 my-2" />
+                </a>
+                <a href="https://www.facebook.com/BhairabICTS" target="_blank">
+                  <img src="/assets\socialmediaicon\fb.png" alt="Facebook" className="w-6 h-6 my-2" />
+                </a>
+              </div>
+            </div>
 
 
           </div>

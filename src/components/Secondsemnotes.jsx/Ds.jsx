@@ -4,7 +4,7 @@ const ImageGallery = () => {
   const images = [];
 
   for (let i = 1; i <= 83; i++) {
-    const imageName = `public/Diglog/Image${i}.jpg`;
+    const imageName = `public/assets/Diglog/Image${i}.jpg`;
     images.push(imageName);
   }
 

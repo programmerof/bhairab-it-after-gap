@@ -30,7 +30,8 @@ import Math2 from './components/Secondsemnotes.jsx/Math2';
 import Objectorientedprogramming from './components/Secondsemnotes.jsx/Objectorientedprogramming';
 import Ds from './components/Secondsemnotes.jsx/Ds';
 import Microprocessor from "./components/Secondsemnotes.jsx/Microprocessor";
-import Seeclients from './components/Seeclients';
+
+import Smm from './components/Smm';
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
           </BrowserRouter>
           <Home />
           <Ourfeature />
+         
 
           {/* <Physics2074 /> */}
 
@@ -90,6 +92,7 @@ function App() {
 
           {/* <Contact /> */}
           <Footer />
+          <Iit/>
 
 
         </div>

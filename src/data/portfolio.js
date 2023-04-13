@@ -65,37 +65,37 @@ export default [
     title: 'Client 1',
     imgUrl: 'public/assets/Bhairabwork/bhairabwork1.jpg',
   },
-  {
+  { 
     title: 'Client 2',
-    imgUrl: 'public/assets/Bhairabwork/bhairabwork2.jpg',
+    imgUrl: 'public/assets/Bhairabwork/Bhairabwork2.jpg',
   },
   {
     title: 'Client 3',
-    imgUrl: 'public/assets/Bhairabwork/bhairabwork3.jpg',
+    imgUrl: 'public/assets/Bhairabwork/Bhairabwork3.jpg',
   },
   {
     title: 'Client 4',
-    imgUrl: 'public/assets/Bhairabwork/bhairabwork4.jpg',
+    imgUrl: 'public/assets/Bhairabwork/Bhairabwork4.jpg',
   },
   {
     title: 'Client 5',
-    imgUrl: 'public/assets/Bhairabwork/bhairabwork5.jpg',
+    imgUrl: 'public/assets/Bhairabwork/Bhairabwork5.jpg',
   },
   {
     title: 'Client 6',
-    imgUrl: 'public/assets/Bhairabwork/bhairabwork6.jpg',
+    imgUrl: 'public/assets/Bhairabwork/Bhairabwork6.jpg',
   },
   {
     title: 'Client 7',
-    imgUrl: 'public/assets/Bhairabwork/bhairabwork7.jpg',
+    imgUrl: 'public/assets/Bhairabwork/Bhairabwork7.jpg',
   },
   {
     title: 'Client 8',
-    imgUrl: 'public/assets/Bhairabwork/bhairabwork8.jpg',
+    imgUrl: 'public/assets/Bhairabwork/Bhairabwork8.jpg',
   },
   {
     title: 'Client 9',
-    imgUrl: 'public/assets/Bhairabwork/bhairabwork9.jpg',
+    imgUrl: 'public/assets/Bhairabwork/Bhairabwork9.jpg',
   },
 
 ];

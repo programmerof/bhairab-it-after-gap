@@ -4,7 +4,7 @@ const CProgramming2074 = () => {
   const images = Array.from(Array(27), (_, i) => {
     const number = (i+1).toString().padStart(2, '0');
     return {
-      src: `public/c/C-Programming (2074)/C-Programming (2074)-${number}.jpg`,
+      src: `public/assets/c/C-Programming (2074)/C-Programming (2074)-${number}.jpg`,
       alt: `Image ${i+1}`,
     };
   });

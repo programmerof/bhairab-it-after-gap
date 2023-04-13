@@ -4,7 +4,7 @@ const Iit2075 = () => {
   const images = Array.from(Array(19), (_, i) => {
     const number = (i+1).toString().padStart(2, '0');
     return {
-      src: `public/iit/IIT (2075)/IIT (2075)-${number}.jpg`,
+      src: `public/assets/iit/IIT (2075)/IIT (2075)-${number}.jpg`,
       alt: `Image ${i+1}`,
     };
   });

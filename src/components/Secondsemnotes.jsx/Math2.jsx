@@ -4,7 +4,7 @@ const ImageGallery = () => {
   const images = [];
 
   for (let i = 1; i <= 10; i++) {
-    const imageName = `public/Matht/Math${i}.jpg`;
+    const imageName = `public/assets/Matht/Math${i}.jpg`;
     images.push(imageName);
   }
 

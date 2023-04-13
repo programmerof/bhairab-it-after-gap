@@ -6,7 +6,7 @@ const Iit2079 = () => {
     
     return {
       
-      src: `public/iit/Introduction to Information Technology (2079)/Introduction to Information Technology (2079)-${number}.jpg`,
+      src: `public/assets/iit/Introduction to Information Technology (2079)/Introduction to Information Technology (2079)-${number}.jpg`,
       
       alt: `Image ${i+1}`,
     };
