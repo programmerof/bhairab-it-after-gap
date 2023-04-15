@@ -1,27 +1,19 @@
-import React from 'react';
+import React from "react";
 
-const CProgramming2079 = () => {
-  const images = Array.from(Array(20), (_, i) => {
-    const number = (i+1).toString().padStart(2, '0');
-    return {
-      src: `public/assets/c/C- Programming (2079)-${number}.jpg`,  
-      alt: `Image ${i+1}`,
-    };
-  });
+const ImageGallery = () => {
+  const images = [];
 
+  for (let i = 1; i <= 30; i++) {
+    const imageName = `/assets/c/C- Programming (2079)-${i.toString().padStart(2, '0')}.jpg`;
+    images.push(imageName);
+  }
   return (
-    <div className="flex flex-col items-center">
+    <div>
       {images.map((image, index) => (
-        <div key={index} className="w-full my-2">
-          <img
-            src={image.src}
-            alt={image.alt}
-            className="rounded-lg shadow-md object-cover w-full h-auto"
-          />
-        </div>
+        <img key={index} src={image} alt={`Microprocessor ${index}`} />
       ))}
     </div>
   );
 };
 
-export default CProgramming2079;
+export default ImageGallery;

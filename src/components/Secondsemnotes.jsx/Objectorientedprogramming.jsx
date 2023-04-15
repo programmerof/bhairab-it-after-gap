@@ -3,15 +3,15 @@ import React from "react";
 const ImageGallery = () => {
   const images = [];
 
-  for (let i = 1; i <= 10; i++) {
-    const imageName = `public/assets/Oop/Oop${i}.jpg`;
+  for (let i = 1; i <= 30; i++) {
+    const imageName = `/assets/Oop/Oop${i}.jpg`;
     images.push(imageName);
   }
 
   return (
     <div>
       {images.map((image, index) => (
-        <img key={index} src={image} alt={`OOP ${index}`} />
+        <img key={index} src={image} alt={`Object Oriented Programming ${index}`} />
       ))}
     </div>
   );

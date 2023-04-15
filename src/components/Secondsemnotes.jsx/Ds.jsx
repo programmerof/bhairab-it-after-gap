@@ -1,10 +1,10 @@
 import React from "react";
 
-const ImageGallery = () => {
+const DiscreteStructureGallery = () => {
   const images = [];
 
   for (let i = 1; i <= 83; i++) {
-    const imageName = `public/assets/Diglog/Image${i}.jpg`;
+    const imageName = `/assets/Diglog/Image${i.toString().padStart(2, '0')}.jpg`;
     images.push(imageName);
   }
 
@@ -17,4 +17,4 @@ const ImageGallery = () => {
   );
 };
 
-export default ImageGallery;
+export default DiscreteStructureGallery;

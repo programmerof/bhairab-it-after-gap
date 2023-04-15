@@ -92,7 +92,6 @@ function App() {
 
           {/* <Contact /> */}
           <Footer />
-          <Iit/>
 
 
         </div>

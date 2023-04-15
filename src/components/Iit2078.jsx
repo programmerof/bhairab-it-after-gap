@@ -4,11 +4,8 @@ const Iit2078 = () => {
   const images = [];
 
   for (let i = 1; i <= 12; i++) {
-    const imageName = `public/assets/iit/IIT (2078)/IIT (2078)-${i.toString().padStart(2, '0')}.jpg`;
-    images.push({
-      src: imageName,
-      alt: `Image ${i}`,
-    });
+    const imageName = `/assets/iit/IIT (2078)/IIT (2078)-${i.toString().padStart(2, '0')}.jpg`;
+    images.push(imageName);
   }
 
   return (
@@ -16,8 +13,8 @@ const Iit2078 = () => {
       {images.map((image, index) => (
         <div key={index} className="w-full my-2">
           <img
-            src={image.src}
-            alt={image.alt}
+            src={image}
+            alt={`Image ${index + 1}`}
             className="rounded-lg shadow-md object-cover w-full h-auto"
           />
         </div>
