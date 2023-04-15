@@ -10,10 +10,11 @@ const ImageGallery = () => {
   return (
     <div>
       {images.map((image, index) => (
-        <img key={index} src={image} alt={`Microprocessor ${index}`} />
+        <img key={index} src={image} alt={`cp2079 ${index}`} />
       ))}
     </div>
   );
 };
 
 export default ImageGallery;
+

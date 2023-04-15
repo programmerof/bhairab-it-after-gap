@@ -32,6 +32,7 @@ import Ds from './components/Secondsemnotes.jsx/Ds';
 import Microprocessor from "./components/Secondsemnotes.jsx/Microprocessor";
 
 import Smm from './components/Smm';
+import Showcase from './components/Showcase';
 
 function App() {
   return (
@@ -79,6 +80,7 @@ function App() {
           </BrowserRouter>
           <Home />
           <Ourfeature />
+          <Showcase/>
          
 
           {/* <Physics2074 /> */}

@@ -1,26 +1,19 @@
-import React from 'react';
+import React from "react";
 
-const Iit2075 = () => {
+const ImageGallery = () => {
   const images = [];
 
-  for (let i = 1; i <= 19; i++) {
+  for (let i = 1; i <= 30; i++) {
     const imageName = `/assets/iit/IIT (2075)/IIT (2075)-${i.toString().padStart(2, '0')}.jpg`;
     images.push(imageName);
   }
-
   return (
-    <div className="flex flex-col items-center">
+    <div>
       {images.map((image, index) => (
-        <div key={index} className="w-full my-2">
-          <img
-            src={image}
-            alt={`Image ${index + 1}`}
-            className="rounded-lg shadow-md object-cover w-full h-auto"
-          />
-        </div>
+        <img key={index} src={image} alt={`Microprocessor ${index}`} />
       ))}
     </div>
   );
 };
 
-export default Iit2075;
+export default ImageGallery;
