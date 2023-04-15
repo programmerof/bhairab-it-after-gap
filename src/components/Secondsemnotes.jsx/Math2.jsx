@@ -11,7 +11,7 @@ const ImageGallery = () => {
   return (
     <div>
       {images.map((image, index) => (
-        <img key={index} src={image} alt={`math second semester notes ${index}`} />
+        <img key={index} src={image} alt={`Math second semester notes ${index}`} />
       ))}
     </div>
   );

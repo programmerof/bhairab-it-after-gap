@@ -8,7 +8,6 @@ const ImageGallery = () => {
     images.push(imageName);
   }
 
-
   return (
     <div>
       {images.map((image, index) => (
