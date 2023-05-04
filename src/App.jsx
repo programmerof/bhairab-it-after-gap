@@ -34,6 +34,11 @@ import Microprocessor from "./components/Secondsemnotes.jsx/Microprocessor";
 import Smm from './components/Smm';
 import Showcase from './components/Showcase';
 
+import Blog from './components/Blog';
+import BlogPost from './components/BlogPost';
+
+
+
 function App() {
   return (
     <>
@@ -76,26 +81,23 @@ function App() {
               <Route path="/Microprocessor" element={< Microprocessor />} />
               <Route path="/Ds" element={< Ds />} />
 
+              <Route path="/Showwork" element={< Showcase />} />
+
+
+
+
+              <Route path="/blog" element={< Blog />} />
+              <Route path="/blog/:id" component={< BlogPost />} />
+
+
+
+
             </Routes>
           </BrowserRouter>
           <Home />
           <Ourfeature />
-          <Showcase/>
-         
-
-          {/* <Physics2074 /> */}
-
           <SubjectList />
-          {/* <Portfolio /> */}
-          {/* <QAComponent data={data} /> */}
-          {/* <Team />
-          <Map />
-          <Aboutus /> */}
-
-          {/* <Contact /> */}
           <Footer />
-
-
         </div>
       </div>
     </>

@@ -41,6 +41,10 @@ const Showcase = () => {
   ];
 
  return (
+  <>
+  <div className="flex flex-col items-center justify-center">
+        <h4 className="text-center text-4xl md:mr-12 md:pb-6 bg-blue-400 rounded 4xl mb-2 mt-4">Work Showcase</h4>
+      </div>
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
   <div className="grid grid-cols-3 gap-4">
     <div className="col-span-1 relative">
@@ -63,6 +67,8 @@ const Showcase = () => {
     ))}
   </div>
 </div>
+</>
+
 
 );
 

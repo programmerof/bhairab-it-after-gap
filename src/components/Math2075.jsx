@@ -1,32 +1,19 @@
 import React from "react";
 
-const ImageGallery = ({ images }) => {
+const ImageGallery = () => {
+  const images = [];
+
+  for (let i = 1; i <= 30; i++) {
+    const imageName = `/assets/Matht/Math${i}.jpg`;
+    images.push(imageName);
+  }
   return (
-    <div className="image-gallery">
+    <div>
       {images.map((image, index) => (
-        <div key={index}>
-          <img src={image} alt={`image ${index}`} />
-        </div>
+        <img key={index} src={image} alt={`Microprocessor ${index}`} />
       ))}
     </div>
   );
 };
 
-const folderPath = "../public/math 1/Mathematics (2075)";
-const imageName = "Mathematics (2075)-";
-
-const imagePaths = [];
-for (let i = 1; i <= 10; i++) {
-  const imagePath = `${folderPath}/${imageName}${i}.jpg`;
-  imagePaths.push(imagePath);
-}
-
-const App = () => {
-  return (
-    <div className="App">
-      <ImageGallery images={imagePaths} />
-    </div>
-  );
-};
-
-export default App;
+export default ImageGallery;

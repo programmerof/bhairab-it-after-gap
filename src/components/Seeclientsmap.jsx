@@ -4,7 +4,7 @@ import Seeclients from './Seeclients';
 const data = [
    {
       title: 'Client 1',
-      imgUrl: 'publicBhairabwork\bhairabwork1.jpg',
+      imgUrl: 'public/Bhairabwork/bhairabwork1.jpg',
       link: 'youtube.com',
    },
    {
